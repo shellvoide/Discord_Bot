@@ -11,7 +11,9 @@ A Simple bash script that will help you in creating bots with ease.
 
 -- 2. The oAuthToken (This is the secret token that is generated on the Discord Developer's website)
 
-Usage: sudo ./MakeBot.sh projectName Discord Bot Token
+Usage: sudo ./MakeBot.sh projectName Discord-Bot-Token
+
+Example: sudo ./MakeBot.sh randomProjectName 123123123123
 
 - Sudo is mandatory as the program might need to install some dependencies.
   
@@ -23,4 +25,4 @@ cd Discord_Bot
 
 chmod +x MakeBot.sh
 
-./MakeBot.sh
+sudo ./MakeBot.sh projectName Discord-Bot-Token
