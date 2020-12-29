@@ -19,10 +19,9 @@ Example: sudo ./MakeBot.sh randomProjectName 123123123123
   
   
 # Commands to get this script up and running:
-git clone https://github.com/shellvoide/Discord_Bot.git
-
-cd Discord_Bot
-
-chmod +x MakeBot.sh
-
-sudo ./MakeBot.sh projectName Discord-Bot-Token
+```
+$ git clone https://github.com/shellvoide/Discord_Bot.git
+$ cd Discord_Bot
+$ chmod +x MakeBot.sh
+$ sudo ./MakeBot.sh projectName Discord-Bot-Token
+```
